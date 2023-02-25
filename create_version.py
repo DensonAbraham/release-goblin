@@ -23,7 +23,7 @@ def get_new_version():
 def get_commit_message():
     version = sys.argv[2]
     version_update_type = sys.argv[3]
-    commit_message = f"Bitbucket Pipeline Automated Release: {version_update_type} Release with tag {version}"
+    commit_message = f"Automated Release: {version_update_type} Release with tag {version}"
     return commit_message
 
 
